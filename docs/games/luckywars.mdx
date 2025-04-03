@@ -1,0 +1,35 @@
+---
+title: LuckyWars
+sidebar_position: 1
+---
+
+import MinecraftInventory from '@site/src/components/MinecraftInventory/MinecraftInventory';
+
+## Überblick
+
+LuckyWars ist ein spannendes Minispiel, das dem klassischen SkyWars ähnelt. Spieler starten auf eigenen schwebenden Inseln und kämpfen in einem rasanten Battle Royale gegeneinander. Der Clou bei LuckyWars: Auf jeder Spielerinsel befinden sich mindestens drei **LuckyBlöcke**, die besondere Überraschungen und Vorteile bieten können.
+
+## Spielprinzip
+
+- **Start:** Jeder Spieler beginnt auf seiner eigenen Insel, die strategisch mit mindestens drei LuckyBlöcken ausgestattet ist.
+- **Loot & Kämpfe:** Sammle Items, aktiviere die Effekte der LuckyBlöcke und bekämpfe deine Gegner, bis nur noch ein Sieger übrig ist.
+- **Ziel:** Nutze die einzigartigen Möglichkeiten der LuckyBlöcke, um taktische Vorteile zu erlangen und die Schlacht zu gewinnen.
+
+## Kits
+
+Während der Wartelobby-Phase können Spieler aus einem individuellen **Kits-Bereich** wählen und diese für Coins kaufen. Die Kits beinhalten verschiedene Ausrüstungsgegenstände und Power-Ups, die deinen Spielstil unterstützen. Der visuelle Bereich für Kits ermöglicht es, die Auswahl übersichtlich darzustellen und leicht anzupassen.
+
+Die Auswahl der Kits sieht in etwa so aus:
+<MinecraftInventory
+    headerText="Wähle ein Kit"
+    slots={[
+        { itemName: "stone_pickaxe", tooltip: `§7Starter\n§8➥ §7Beschreibung:\n§7Du erhälst folgende Gegenstände zum Start:\n§7- §71x Stein Schwert\n§7- §71x Stein Schaufel\n§7- §71x Stein Axt\n§7- §71x Stein Spitzhacke\n\n§aIm Besitz` },
+        { itemName: "crafting_table", tooltip: `§7Crafter\n§8➥ §7Beschreibung:\n§7Du erhälst zum Beginn der Runde:\n§7- 1x §6Werkbank\n§7- 1x §6Amboss\n§7- 1x §5Zaubertisch\n\n§aIm Besitz` },
+        { itemName: "ender_pearl", tooltip: `§2Enderman\n§8➥ §7Beschreibung:\n§7Zu Beginn der Runde erhältst du eine §2Ender Perle\n§7und eine Brustplatte mit §eProtection 1§7.\n\n§aIm Besitz` },
+        { itemName: "golden_pickaxe", tooltip: `§6Goldgräber\n§8➥ §7Beschreibung:\n§7Du erhälst zum Beginn der Runde:\n§7- 1x Goldschwert mit §6Schärfe 2 §7& §6Haltbarkeit 2\n§7- Beinahe komplette Goldrüstung mit §6Schutz 1 §7& §6Haltbarkeit 2\n§8(Du erhältst keine Schuhe)\n\n§aIm Besitz` },
+        { itemName: "mushroom_stew", tooltip: `§3Suppenmeister\n§8➥ §7Beschreibung:\n§7Du erhälst zum Beginn der Runde:\n§7- 4x Suppen für §csofortige Heilung\n\n§aIm Besitz` },
+        { itemName: "iron_sword", tooltip: `§eGladiator\n§8➥ §7Beschreibung:\n§7Du erhälst zum Beginn der Runde:\n§7- 1x Eisenschwert mit §6Schärfe 2\n§7- 1x Eisenbrustplatte mit §6Schutz 1\n§7- Volle Kettenrüstung (außer Brustplatte)\n\n§7Du erhältst bei jedem Kill für §66 Sekunden §cRegeneration§7.\n\n§aIm Besitz` },
+        { itemName: "diamond_sword", tooltip: `§eUHC\n§8➥ §7Beschreibung:\n§7Du erhälst zum Beginn der Runde:\n§7- 2x §6Goldener Apfel\n§7- Vollständige Kettenrüstung\n§7- 1x Kettenbrustplatte mit §6Schutz 2\n\n§7Du erhältst auch ein §cextra Herz §r§7für jeden Kill.\n\n§aIm Besitz` },
+        { itemName: "paper", tooltip: `§bZufall\n§8➥ §7Beschreibung:\n§7Keine Lust eins zu wählen?\n§7Lass den Zufall entscheiden.\n\n§aIm Besitz` },
+    ]}
+/>
