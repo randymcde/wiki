@@ -8,6 +8,7 @@
 .docusaurus
 .cache-loader
 yarn.lock
+.idea
 
 # Misc
 .DS_Store
