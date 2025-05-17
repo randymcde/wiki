@@ -1,0 +1,9 @@
+{
+  "label": "Schwerter",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Hier findest du Verzauberungen für Schwerter",
+    "slug": "games/school/enchantments/swords"
+  }
+}
