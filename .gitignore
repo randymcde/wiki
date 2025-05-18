@@ -9,6 +9,7 @@
 .cache-loader
 yarn.lock
 .idea
+*.iml
 
 # Misc
 .DS_Store
