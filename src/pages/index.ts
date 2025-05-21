@@ -5,7 +5,7 @@ export default function Home() {
     const history = useHistory();
 
     useEffect(() => {
-        history.replace('/welcome');
+        history.replace('/start');
     }, []);
 
     return null;

@@ -1,6 +1,6 @@
 ---
-title: Willkommen
-sidebar_position: 1
+title: Start
+sidebar_position: 0
 ---
 
 # RandyMC.de Wiki
