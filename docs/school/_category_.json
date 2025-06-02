@@ -1,9 +1,9 @@
 {
   "label": "School",
-  "position": 1,
+  "position": 2,
   "link": {
     "type": "generated-index",
     "description": "Hier findest du Informationen zu School",
-    "slug": "games/school"
+    "slug": "school"
   }
 }
