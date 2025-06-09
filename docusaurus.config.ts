@@ -5,14 +5,14 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-    title: 'rpxls.de Wiki',
+    title: 'Tavaria.de Wiki',
     tagline: 'Und ich bin auch dabei! 👀',
     favicon: 'img/favicon.ico',
 
-    url: 'https://wiki.rpxls.de',
+    url: 'https://wiki.tavaria.de',
     baseUrl: '/',
 
-    organizationName: 'rpxls',
+    organizationName: 'Tavaria',
     projectName: 'wiki',
 
     onBrokenLinks: 'throw',
@@ -42,14 +42,14 @@ const config: Config = {
         // Replace with your project's social card
         image: 'img/banner.png',
         navbar: {
-            title: 'rpxls.de Wiki',
+            title: 'Tavaria.de Wiki',
             logo: {
-                alt: 'rpxls.de Logo',
+                alt: 'Tavaria.de Logo',
                 src: 'img/favicon.ico',
             },
             items: [
                 {
-                    to: "https://support.rpxls.de",
+                    to: "https://support.tavaria.de",
                     label: "Support",
                     position: "left",
                 }
@@ -58,7 +58,7 @@ const config: Config = {
         footer: {
             style: "dark",
             links: [],
-            copyright: `Copyright © ${new Date().getFullYear()} rpxls.de - Built with Docusaurus.`,
+            copyright: `Copyright © ${new Date().getFullYear()} Tavaria.de - Built with Docusaurus.`,
         },
         prism: {
             theme: prismThemes.github,
