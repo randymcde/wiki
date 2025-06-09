@@ -45,7 +45,7 @@ const config: Config = {
             title: 'rpxls.de Wiki',
             logo: {
                 alt: 'rpxls.de Logo',
-                src: 'img/logo.svg',
+                src: 'img/logo.ico',
             },
             items: [
                 {
