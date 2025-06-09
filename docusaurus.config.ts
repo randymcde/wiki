@@ -5,14 +5,14 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-    title: 'RandyMC.de Wiki',
+    title: 'rpxls.de Wiki',
     tagline: 'Und ich bin auch dabei! 👀',
     favicon: 'img/favicon.ico',
 
-    url: 'https://wiki.randymc.de',
+    url: 'https://wiki.rpxls.de',
     baseUrl: '/',
 
-    organizationName: 'randymc',
+    organizationName: 'rpxls',
     projectName: 'wiki',
 
     onBrokenLinks: 'throw',
@@ -42,14 +42,14 @@ const config: Config = {
         // Replace with your project's social card
         image: 'img/banner.png',
         navbar: {
-            title: 'RandyMC.de Wiki',
+            title: 'rpxls.de Wiki',
             logo: {
-                alt: 'RandyMC.de Logo',
+                alt: 'rpxls.de Logo',
                 src: 'img/logo.svg',
             },
             items: [
                 {
-                    to: "https://support.randymc.de",
+                    to: "https://support.rpxls.de",
                     label: "Support",
                     position: "left",
                 }
@@ -58,7 +58,7 @@ const config: Config = {
         footer: {
             style: "dark",
             links: [],
-            copyright: `Copyright © ${new Date().getFullYear()} RandyMC.de - Built with Docusaurus.`,
+            copyright: `Copyright © ${new Date().getFullYear()} rpxls.de - Built with Docusaurus.`,
         },
         prism: {
             theme: prismThemes.github,
