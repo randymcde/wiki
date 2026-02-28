@@ -8,10 +8,10 @@ sidebar_position: 0
 Willkommen beim Tavaria Wiki!
 
 Hier kannst du einige Informationen zu Spielmodi und weiterem finden.<br />
-Solltest du eine Frage haben kannst du gerne auf unserem <strong>[Discord](https://discord.gg/6EpSPtcEgt)</strong> fragen, per <strong>[Atrio (Ticket-Support)](https://atrio.tavaria.de)</strong> oder auch im Spiel direkt.
+Solltest du eine Frage haben kannst du gerne auf unserem <strong>[Discord](https://discord.gg/vp4SzGxnce)</strong> fragen, per <strong>[Ticket-Support](https://www.tavaria.de/support)</strong> oder auch im Spiel direkt.
 
 #### Wichtigste Links:
 Webseite: https://tavaria.de <br />
-Support: https://atrio.tavaria.de <br />
+Support: https://tavaria.de/support <br />
 Shop: https://tavaria.de/shop <br />
-Discord: https://discord.gg/6EpSPtcEgt
+Discord: https://discord.gg/vp4SzGxnce
