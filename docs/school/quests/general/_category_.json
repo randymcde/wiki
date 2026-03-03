@@ -1,0 +1,9 @@
+{
+  "label": "Quests",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Hier findest du eine Liste der aktuellen dauerhaften/allgemeinen Quests",
+    "slug": "school/quests/general"
+  }
+}

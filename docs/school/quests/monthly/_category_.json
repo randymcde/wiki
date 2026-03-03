@@ -1,0 +1,9 @@
+{
+  "label": "Monatliche",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Hier findest du eine Liste der aktuellen Monatlichen Quests",
+    "slug": "school/quests/monthly"
+  }
+}
